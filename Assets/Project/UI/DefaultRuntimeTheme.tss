@@ -1,2 +1,5 @@
 @import url("unity-theme://default");
-VisualElement {}
+
+:root {
+  -unity-font-definition: url("Fonts/LondrinaSolid-Light SDF.asset");
+}
