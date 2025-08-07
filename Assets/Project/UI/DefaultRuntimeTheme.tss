@@ -1,5 +1,9 @@
 @import url("unity-theme://default");
 
+@import url("Styles/generated.uss");
+
+
+
 :root {
   -unity-font-definition: url("Fonts/LondrinaSolid-Light SDF.asset");
 }
