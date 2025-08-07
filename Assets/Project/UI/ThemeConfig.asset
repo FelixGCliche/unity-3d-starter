@@ -15,13 +15,12 @@ MonoBehaviour:
   m_importThemeConfigJsonFile: {fileID: 0}
   m_exportConfigJsonFilePath: Assets/exported-theme-config.json
   logLevel: 2
-  configDisplayBackupJson: "{\r\n  \"core\": {\r\n    \"prefix\": \"--\",\r\n   
-    \"modifierSeparator\": \"_\",\r\n    \"modifiers\": {\r\n      \"hover\": {\r\n       
-    \"value\": \"{{generated_class}}:hover\"\r\n      },\r\n      \"focus\": {\r\n       
-    \"value\": \"{{generated_class}}:focus\"\r\n      },\r\n      \"checked\": {\r\n       
-    \"value\": \"{{generated_class}}:checked\"\r\n      },\r\n      \"disabled\":
-    {\r\n        \"value\": \"{{generated_class}}:disabled\"\r\n      },\r\n     
-    \"enabled\": {\r\n        \"value\": \"{{generated_class}}:enabled\"\r\n     
+  configDisplayBackupJson: "{\r\n  \"core\": {\r\n    \"prefix\": \"\",\r\n    \"modifierSeparator\":
+    \"_\",\r\n    \"modifiers\": {\r\n      \"hover\": {\r\n        \"value\": \"{{generated_class}}:hover\"\r\n     
+    },\r\n      \"focus\": {\r\n        \"value\": \"{{generated_class}}:focus\"\r\n     
+    },\r\n      \"checked\": {\r\n        \"value\": \"{{generated_class}}:checked\"\r\n     
+    },\r\n      \"disabled\": {\r\n        \"value\": \"{{generated_class}}:disabled\"\r\n     
+    },\r\n      \"enabled\": {\r\n        \"value\": \"{{generated_class}}:enabled\"\r\n     
     },\r\n      \"active\": {\r\n        \"value\": \"{{generated_class}}:active\"\r\n     
     },\r\n      \"inactive\": {\r\n        \"value\": \"{{generated_class}}:inactive\"\r\n     
     }\r\n    },\r\n    \"colors\": {\r\n      \"transparent\": {\r\n        \"value\":
@@ -918,7 +917,7 @@ MonoBehaviour:
     ],\r\n    \"safelist\": [],\r\n    \"blocklist\": []\r\n  },\r\n  \"schemaVersion\":
     \"1.0.1\"\r\n}"
   m_ussFilePath: Assets/Project/UI/Styles/generated.uss
-  m_purgedUssFilePath: AssetsProject/UI/Styles/purged.uss
+  m_purgedUssFilePath: Assets/Project/UI/Styles/purged.uss
   themeConfigDisplay:
     schemaVersion: 1.0.1
     Core:
@@ -934,7 +933,7 @@ MonoBehaviour:
       ValuesImageValueDictionary: []
       ValuesFontAssetValueDictionary: []
       ValueString:
-        Value: --
+        Value: 
         isMultiline: 0
         Validator:
           IsRequired: 0
