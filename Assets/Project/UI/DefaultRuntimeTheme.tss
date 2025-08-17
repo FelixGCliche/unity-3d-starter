@@ -1,9 +1,13 @@
-@import url("unity-theme://default");
-
 @import url("Styles/generated.uss");
 
 
 
 :root {
-  -unity-font-definition: url("Fonts/LondrinaSolid-Light SDF.asset");
+  -unity-font-definition: url("Fonts/LondrinaSolid-Regular SDF.asset");
+}
+
+.unity-ui-document__root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
