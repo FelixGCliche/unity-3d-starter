@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Game Title" name="GameTitle" class="text-center text-6xl py-4 text-neutral-50" />
+    <ui:GroupBox name="MainMenuButtonGroup" class="flex flex-grow pl-16 items-start justify-center">
+        <ui:Button text="Play" enabled="true" name="PlayButton" class="pb-2 border-0 text-2xl bg-transparent text-shadow-neutral-900 text-neutral-50 hocus_text-primary hocus_text-shadow-solid" />
+        <ui:Button text="Settings" enabled="true" name="SettingsButton" class="pb-2 border-0 text-2xl bg-transparent text-shadow-neutral-900 text-neutral-50 hocus_text-primary hocus_text-shadow-solid" />
+        <ui:Button text="Quit Game" enabled="true" name="QuitButton" class="pb-2 border-0 text-2xl bg-transparent text-shadow-neutral-900 text-neutral-50 hocus_text-primary hocus_text-shadow-solid" />
+    </ui:GroupBox>
+</ui:UXML>

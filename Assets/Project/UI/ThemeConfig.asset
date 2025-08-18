@@ -18,7 +18,7 @@ MonoBehaviour:
   configDisplayBackupJson: "{\r\n  \"core\": {\r\n    \"prefix\": \"\",\r\n    \"modifierSeparator\":
     \"_\",\r\n    \"modifiers\": {\r\n      \"hover\": {\r\n        \"value\": \"{{generated_class}}:hover\"\r\n     
     },\r\n      \"focus\": {\r\n        \"value\": \"{{generated_class}}:focus\"\r\n     
-    },\r\n      \"hocus\": {\r\n        \"value\": \"{{generated_class}}:hover,:focus\"\r\n     
+    },\r\n      \"hocus\": {\r\n        \"value\": \"{{generated_class}}:focus,:hover\"\r\n     
     },\r\n      \"checked\": {\r\n        \"value\": \"{{generated_class}}:checked\"\r\n     
     },\r\n      \"disabled\": {\r\n        \"value\": \"{{generated_class}}:disabled\"\r\n     
     },\r\n      \"enabled\": {\r\n        \"value\": \"{{generated_class}}:enabled\"\r\n     
@@ -58,9 +58,6 @@ MonoBehaviour:
     \"#C8BEB6\",\r\n          \"300\": \"#B1A49B\",\r\n          \"400\": \"#9A8B7F\",\r\n         
     \"500\": \"#807165\",\r\n          \"600\": \"#64584E\",\r\n          \"700\":
     \"#493F37\",\r\n          \"800\": \"#2D261E\",\r\n          \"900\": \"#120D00\"\r\n       
-    },\r\n        \"uss\": {}\r\n      },\r\n      \"white\": {\r\n        \"value\":
-    {\r\n          \"DEFAULT\": \"#FFFFFF\"\r\n        },\r\n        \"uss\": {}\r\n     
-    },\r\n      \"black\": {\r\n        \"value\": {\r\n          \"DEFAULT\": \"#000000\"\r\n       
     },\r\n        \"uss\": {}\r\n      }\r\n    },\r\n    \"spacing\": {\r\n     
     \"0\": {\r\n        \"value\": \"0px\",\r\n        \"uss\": {}\r\n      },\r\n     
     \"1\": {\r\n        \"value\": \"4px\",\r\n        \"uss\": {}\r\n      },\r\n     
@@ -687,13 +684,13 @@ MonoBehaviour:
     \"tagPropertyMap\": {\r\n        \"text\": {\r\n          \"properties\": [\r\n           
     \"-unity-text-align\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n   
     \"textColor\": {\r\n      \"data\": {},\r\n      \"enabled\": true,\r\n     
-    \"modifierVariations\": [\r\n        \"hover\",\r\n        \"focus\"\r\n     
-    ],\r\n      \"extendFields\": [\r\n        \"core.colors\"\r\n      ],\r\n     
-    \"tagPropertyMap\": {\r\n        \"text\": {\r\n          \"properties\": [\r\n           
-    \"color\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"textOutlineWidth\":
-    {\r\n      \"data\": {\r\n        \"0\": {\r\n          \"value\": \"0\",\r\n         
-    \"uss\": {}\r\n        },\r\n        \"1\": {\r\n          \"value\": \"1px\",\r\n         
-    \"uss\": {}\r\n        },\r\n        \"2\": {\r\n          \"value\": \"2px\",\r\n         
+    \"modifierVariations\": [\r\n        \"hocus\"\r\n      ],\r\n      \"extendFields\":
+    [\r\n        \"core.colors\"\r\n      ],\r\n      \"tagPropertyMap\": {\r\n       
+    \"text\": {\r\n          \"properties\": [\r\n            \"color\"\r\n         
+    ]\r\n        }\r\n      }\r\n    },\r\n    \"textOutlineWidth\": {\r\n      \"data\":
+    {\r\n        \"0\": {\r\n          \"value\": \"0\",\r\n          \"uss\": {}\r\n       
+    },\r\n        \"1\": {\r\n          \"value\": \"1px\",\r\n          \"uss\":
+    {}\r\n        },\r\n        \"2\": {\r\n          \"value\": \"2px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"3\": {\r\n          \"value\": \"3px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"4\": {\r\n          \"value\": \"4px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"8\": {\r\n          \"value\": \"8px\",\r\n         
@@ -993,7 +990,7 @@ MonoBehaviour:
       - ModifierName: focus
         Value: '{{generated_class}}:focus'
       - ModifierName: hocus
-        Value: '{{generated_class}}:hover, :focus'
+        Value: '{{generated_class}}:focus,:hover'
       - ModifierName: checked
         Value: '{{generated_class}}:checked'
       - ModifierName: disabled
@@ -1289,20 +1286,6 @@ MonoBehaviour:
           ColorStringType: 0
         - Name: 900
           Color: {r: 0.07058824, g: 0.050980397, b: 0, a: 1}
-          CustomStringValue: 
-          ColorStringType: 0
-      - UssProperties: []
-        PaletteName: white
-        Swatches:
-        - Name: DEFAULT
-          Color: {r: 1, g: 1, b: 1, a: 1}
-          CustomStringValue: 
-          ColorStringType: 0
-      - UssProperties: []
-        PaletteName: black
-        Swatches:
-        - Name: DEFAULT
-          Color: {r: 0, g: 0, b: 0, a: 1}
           CustomStringValue: 
           ColorStringType: 0
       ValuesImageValueDictionary: []
@@ -4586,8 +4569,7 @@ MonoBehaviour:
         ValuesPluginDictionary: []
     - Enabled: 1
       ModifierVariations:
-      - Value: hover
-      - Value: focus
+      - Value: hocus
       ExtendFields:
       - Value: core.colors
       ClassTagToUssPropertyMap:
@@ -4804,7 +4786,10 @@ MonoBehaviour:
         ValuesClassModifierDictionary: []
         ValuesPluginDictionary: []
     - Enabled: 1
-      ModifierVariations: []
+      ModifierVariations:
+      - Value: hover
+      - Value: focus
+      - Value: hocus
       ExtendFields: []
       ClassTagToUssPropertyMap:
       - ClassTag: text-shadow
