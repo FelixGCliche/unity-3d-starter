@@ -18,6 +18,7 @@ MonoBehaviour:
   configDisplayBackupJson: "{\r\n  \"core\": {\r\n    \"prefix\": \"\",\r\n    \"modifierSeparator\":
     \"_\",\r\n    \"modifiers\": {\r\n      \"hover\": {\r\n        \"value\": \"{{generated_class}}:hover\"\r\n     
     },\r\n      \"focus\": {\r\n        \"value\": \"{{generated_class}}:focus\"\r\n     
+    },\r\n      \"hocus\": {\r\n        \"value\": \"{{generated_class}}:focus,:hover\"\r\n     
     },\r\n      \"checked\": {\r\n        \"value\": \"{{generated_class}}:checked\"\r\n     
     },\r\n      \"disabled\": {\r\n        \"value\": \"{{generated_class}}:disabled\"\r\n     
     },\r\n      \"enabled\": {\r\n        \"value\": \"{{generated_class}}:enabled\"\r\n     
@@ -42,63 +43,56 @@ MonoBehaviour:
     \"500\": \"#22C55E\",\r\n          \"600\": \"#16A34A\",\r\n          \"700\":
     \"#15803D\",\r\n          \"800\": \"#166534\",\r\n          \"900\": \"#14532D\",\r\n         
     \"950\": \"#052E16\"\r\n        },\r\n        \"uss\": {}\r\n      },\r\n     
-    \"primary\": {\r\n        \"value\": {\r\n          \"50\": \"rgba(226, 250,
-    247, 0)\",\r\n          \"100\": \"rgba(197, 233, 227, 0)\",\r\n          \"200\":
-    \"rgba(165, 215, 206, 0)\",\r\n          \"300\": \"rgba(132, 198, 184, 0)\",\r\n         
-    \"400\": \"rgba(99.00001, 182, 161, 0)\",\r\n          \"DEFAULT\": \"rgba(73,
-    156, 133, 0)\",\r\n          \"600\": \"rgba(55, 121, 107, 0)\",\r\n         
-    \"700\": \"rgba(37, 88, 80, 0)\",\r\n          \"800\": \"rgba(17, 53, 51, 0)\",\r\n         
-    \"900\": \"rgba(0, 20, 20, 0)\"\r\n        },\r\n        \"uss\": {}\r\n     
-    },\r\n      \"accent\": {\r\n        \"value\": {\r\n          \"50\": \"rgba(255,
-    241, 222, 0)\",\r\n          \"100\": \"rgba(253, 214, 180, 0)\",\r\n         
-    \"200\": \"rgba(247, 188, 135, 0)\",\r\n          \"300\": \"rgba(243, 161, 89,
-    0)\",\r\n          \"400\": \"rgba(239, 134, 43, 0)\",\r\n          \"DEFAULT\":
-    \"rgba(213, 108, 17, 0)\",\r\n          \"600\": \"rgba(166, 84, 12, 0)\",\r\n         
-    \"700\": \"rgba(119, 60, 7, 0)\",\r\n          \"800\": \"rgba(73, 35, 1, 0)\",\r\n         
-    \"900\": \"rgba(30, 10, 0, 0)\"\r\n        },\r\n        \"uss\": {}\r\n     
-    },\r\n      \"neutral\": {\r\n        \"value\": {\r\n          \"50\": \"rgba(253,
-    240, 233, 0)\",\r\n          \"100\": \"rgba(225, 215, 208, 0)\",\r\n         
-    \"200\": \"rgba(200, 190, 182, 0)\",\r\n          \"300\": \"rgba(177, 164, 155,
-    0)\",\r\n          \"400\": \"rgba(154, 139, 127, 0)\",\r\n          \"500\":
-    \"rgba(128, 113, 101, 0)\",\r\n          \"600\": \"rgba(100, 88, 78, 0)\",\r\n         
-    \"700\": \"rgba(73, 63, 55, 0)\",\r\n          \"800\": \"rgba(45, 38, 30, 0)\",\r\n         
-    \"900\": \"rgba(18, 13, 0, 0)\"\r\n        },\r\n        \"uss\": {}\r\n     
-    },\r\n      \"text\": {\r\n        \"value\": {\r\n          \"DEFAULT\": \"rgba(242,
-    242, 242, 0)\"\r\n        },\r\n        \"uss\": {}\r\n      }\r\n    },\r\n   
-    \"spacing\": {\r\n      \"0\": {\r\n        \"value\": \"0px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"1\": {\r\n        \"value\": \"4px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"2\": {\r\n        \"value\": \"8px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"3\": {\r\n        \"value\": \"12px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"4\": {\r\n        \"value\": \"16px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"5\": {\r\n        \"value\": \"20px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"6\": {\r\n        \"value\": \"24px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"7\": {\r\n        \"value\": \"28px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"8\": {\r\n        \"value\": \"32px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"9\": {\r\n        \"value\": \"36px\",\r\n        \"uss\":
-    {}\r\n      },\r\n      \"10\": {\r\n        \"value\": \"40px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"11\": {\r\n        \"value\": \"44px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"12\": {\r\n        \"value\": \"48px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"14\": {\r\n        \"value\": \"56px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"16\": {\r\n        \"value\": \"64px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"20\": {\r\n        \"value\": \"80px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"24\": {\r\n        \"value\": \"96px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"28\": {\r\n        \"value\": \"112px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"32\": {\r\n        \"value\": \"128px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"36\": {\r\n        \"value\": \"144px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"40\": {\r\n        \"value\": \"160px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"44\": {\r\n        \"value\": \"176px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"48\": {\r\n        \"value\": \"192px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"52\": {\r\n        \"value\": \"208px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"56\": {\r\n        \"value\": \"224px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"60\": {\r\n        \"value\": \"240px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"64\": {\r\n        \"value\": \"256px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"72\": {\r\n        \"value\": \"288px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"80\": {\r\n        \"value\": \"320px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"96\": {\r\n        \"value\": \"384px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"px\": {\r\n        \"value\": \"1px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"0point5\": {\r\n        \"value\": \"2px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"1point5\": {\r\n        \"value\": \"6px\",\r\n       
-    \"uss\": {}\r\n      },\r\n      \"2point5\": {\r\n        \"value\": \"10px\",\r\n       
+    \"primary\": {\r\n        \"value\": {\r\n          \"50\": \"#E2FAF7\",\r\n         
+    \"100\": \"#C5E9E3\",\r\n          \"200\": \"#A5D7CE\",\r\n          \"300\":
+    \"#84C6B8\",\r\n          \"400\": \"#63B6A1\",\r\n          \"DEFAULT\": \"#499C85\",\r\n         
+    \"600\": \"#37796B\",\r\n          \"700\": \"#255850\",\r\n          \"800\":
+    \"#113533\",\r\n          \"900\": \"#001414\"\r\n        },\r\n        \"uss\":
+    {}\r\n      },\r\n      \"accent\": {\r\n        \"value\": {\r\n          \"50\":
+    \"#FFF1DE\",\r\n          \"100\": \"#FDD6B4\",\r\n          \"200\": \"#F7BC87\",\r\n         
+    \"300\": \"#F3A159\",\r\n          \"400\": \"#EF862B\",\r\n          \"DEFAULT\":
+    \"#D56C11\",\r\n          \"600\": \"#A6540C\",\r\n          \"700\": \"#773C07\",\r\n         
+    \"800\": \"#492301\",\r\n          \"900\": \"#1E0A00\"\r\n        },\r\n       
+    \"uss\": {}\r\n      },\r\n      \"neutral\": {\r\n        \"value\": {\r\n         
+    \"50\": \"#FDF0E9\",\r\n          \"100\": \"#E1D7D0\",\r\n          \"200\":
+    \"#C8BEB6\",\r\n          \"300\": \"#B1A49B\",\r\n          \"400\": \"#9A8B7F\",\r\n         
+    \"500\": \"#807165\",\r\n          \"600\": \"#64584E\",\r\n          \"700\":
+    \"#493F37\",\r\n          \"800\": \"#2D261E\",\r\n          \"900\": \"#120D00\"\r\n       
+    },\r\n        \"uss\": {}\r\n      }\r\n    },\r\n    \"spacing\": {\r\n     
+    \"0\": {\r\n        \"value\": \"0px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"1\": {\r\n        \"value\": \"4px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"2\": {\r\n        \"value\": \"8px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"3\": {\r\n        \"value\": \"12px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"4\": {\r\n        \"value\": \"16px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"5\": {\r\n        \"value\": \"20px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"6\": {\r\n        \"value\": \"24px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"7\": {\r\n        \"value\": \"28px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"8\": {\r\n        \"value\": \"32px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"9\": {\r\n        \"value\": \"36px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"10\": {\r\n        \"value\": \"40px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"11\": {\r\n        \"value\": \"44px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"12\": {\r\n        \"value\": \"48px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"14\": {\r\n        \"value\": \"56px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"16\": {\r\n        \"value\": \"64px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"20\": {\r\n        \"value\": \"80px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"24\": {\r\n        \"value\": \"96px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"28\": {\r\n        \"value\": \"112px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"32\": {\r\n        \"value\": \"128px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"36\": {\r\n        \"value\": \"144px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"40\": {\r\n        \"value\": \"160px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"44\": {\r\n        \"value\": \"176px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"48\": {\r\n        \"value\": \"192px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"52\": {\r\n        \"value\": \"208px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"56\": {\r\n        \"value\": \"224px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"60\": {\r\n        \"value\": \"240px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"64\": {\r\n        \"value\": \"256px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"72\": {\r\n        \"value\": \"288px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"80\": {\r\n        \"value\": \"320px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"96\": {\r\n        \"value\": \"384px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"px\": {\r\n        \"value\": \"1px\",\r\n        \"uss\": {}\r\n      },\r\n     
+    \"0point5\": {\r\n        \"value\": \"2px\",\r\n        \"uss\": {}\r\n     
+    },\r\n      \"1point5\": {\r\n        \"value\": \"6px\",\r\n        \"uss\":
+    {}\r\n      },\r\n      \"2point5\": {\r\n        \"value\": \"10px\",\r\n       
     \"uss\": {}\r\n      },\r\n      \"3point5\": {\r\n        \"value\": \"14px\",\r\n       
     \"uss\": {}\r\n      }\r\n    },\r\n    \"negativeSpacing\": {\r\n      \"minus-0\":
     {\r\n        \"value\": \"0px\",\r\n        \"uss\": {}\r\n      },\r\n     
@@ -690,13 +684,13 @@ MonoBehaviour:
     \"tagPropertyMap\": {\r\n        \"text\": {\r\n          \"properties\": [\r\n           
     \"-unity-text-align\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n   
     \"textColor\": {\r\n      \"data\": {},\r\n      \"enabled\": true,\r\n     
-    \"modifierVariations\": [\r\n        \"hover\",\r\n        \"focus\"\r\n     
-    ],\r\n      \"extendFields\": [\r\n        \"core.colors\"\r\n      ],\r\n     
-    \"tagPropertyMap\": {\r\n        \"text\": {\r\n          \"properties\": [\r\n           
-    \"color\"\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"textOutlineWidth\":
-    {\r\n      \"data\": {\r\n        \"0\": {\r\n          \"value\": \"0\",\r\n         
-    \"uss\": {}\r\n        },\r\n        \"1\": {\r\n          \"value\": \"1px\",\r\n         
-    \"uss\": {}\r\n        },\r\n        \"2\": {\r\n          \"value\": \"2px\",\r\n         
+    \"modifierVariations\": [\r\n        \"hocus\"\r\n      ],\r\n      \"extendFields\":
+    [\r\n        \"core.colors\"\r\n      ],\r\n      \"tagPropertyMap\": {\r\n       
+    \"text\": {\r\n          \"properties\": [\r\n            \"color\"\r\n         
+    ]\r\n        }\r\n      }\r\n    },\r\n    \"textOutlineWidth\": {\r\n      \"data\":
+    {\r\n        \"0\": {\r\n          \"value\": \"0\",\r\n          \"uss\": {}\r\n       
+    },\r\n        \"1\": {\r\n          \"value\": \"1px\",\r\n          \"uss\":
+    {}\r\n        },\r\n        \"2\": {\r\n          \"value\": \"2px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"3\": {\r\n          \"value\": \"3px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"4\": {\r\n          \"value\": \"4px\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"8\": {\r\n          \"value\": \"8px\",\r\n         
@@ -728,28 +722,34 @@ MonoBehaviour:
     2px 4px var(--zb-text-shadow-color)\",\r\n          \"uss\": {}\r\n        },\r\n       
     \"md\": {\r\n          \"value\": \"0 4px 8px var(--zb-text-shadow-color)\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"lg\": {\r\n          \"value\": \"0 8px
-    16px var(--zb-text-shadow-color)\",\r\n          \"uss\": {}\r\n        }\r\n     
-    },\r\n      \"enabled\": true,\r\n      \"modifierVariations\": [],\r\n     
-    \"extendFields\": [],\r\n      \"tagPropertyMap\": {\r\n        \"text-shadow\":
-    {\r\n          \"properties\": [\r\n            \"text-shadow\"\r\n         
-    ]\r\n        }\r\n      }\r\n    },\r\n    \"textShadowColor\": {\r\n      \"data\":
-    {},\r\n      \"enabled\": true,\r\n      \"modifierVariations\": [\r\n       
-    \"hover\",\r\n        \"focus\"\r\n      ],\r\n      \"extendFields\": [\r\n       
-    \"core.colors\"\r\n      ],\r\n      \"tagPropertyMap\": {\r\n        \"text-shadow\":
-    {\r\n          \"properties\": [\r\n            \"--zb-text-shadow-color\"\r\n         
-    ]\r\n        }\r\n      }\r\n    },\r\n    \"transform\": {\r\n      \"data\":
-    {\r\n        \"transform\": {\r\n          \"value\": \"0\",\r\n          \"uss\":
-    {\r\n            \"--zb-scale-x\": \"1\",\r\n            \"--zb-scale-y\": \"1\",\r\n           
-    \"translate\": \"var(--zb-translate-x) var(--zb-translate-y)\",\r\n           
-    \"rotate\": \"var(--zb-rotate)\",\r\n            \"scale\": \"var(--zb-scale-x)
-    var(--zb-scale-y)\"\r\n          }\r\n        }\r\n      },\r\n      \"enabled\":
+    16px var(--zb-text-shadow-color)\",\r\n          \"uss\": {}\r\n        },\r\n       
+    \"solid-sm\": {\r\n          \"value\": \"1px 1px 0 var(--zb-text-shadow-color)\",\r\n         
+    \"uss\": {}\r\n        },\r\n        \"solid\": {\r\n          \"value\": \"2px
+    2px 0 var(--zb-text-shadow-color)\",\r\n          \"uss\": {}\r\n        },\r\n       
+    \"solid-md\": {\r\n          \"value\": \"4px 4px 0 var(--zb-text-shadow-color)\",\r\n         
+    \"uss\": {}\r\n        },\r\n        \"solid-lg\": {\r\n          \"value\":
+    \"8px 8px 0 var(--zb-text-shadow-color)\",\r\n          \"uss\": {}\r\n       
+    }\r\n      },\r\n      \"enabled\": true,\r\n      \"modifierVariations\": [\r\n       
+    \"hover\",\r\n        \"focus\",\r\n        \"hocus\"\r\n      ],\r\n      \"extendFields\":
+    [],\r\n      \"tagPropertyMap\": {\r\n        \"text-shadow\": {\r\n         
+    \"properties\": [\r\n            \"text-shadow\"\r\n          ]\r\n        }\r\n     
+    }\r\n    },\r\n    \"textShadowColor\": {\r\n      \"data\": {},\r\n      \"enabled\":
     true,\r\n      \"modifierVariations\": [\r\n        \"hover\",\r\n        \"focus\"\r\n     
-    ],\r\n      \"extendFields\": [],\r\n      \"tagPropertyMap\": {\r\n        \"\":
-    {\r\n          \"properties\": [\r\n            \"--zb-translate-x\",\r\n           
-    \"--zb-translate-y\",\r\n            \"--zb-rotate\"\r\n          ]\r\n       
-    }\r\n      }\r\n    },\r\n    \"transformOrigin\": {\r\n      \"data\": {\r\n       
-    \"center\": {\r\n          \"value\": \"center center\",\r\n          \"uss\":
-    {}\r\n        },\r\n        \"top\": {\r\n          \"value\": \"top\",\r\n         
+    ],\r\n      \"extendFields\": [\r\n        \"core.colors\"\r\n      ],\r\n     
+    \"tagPropertyMap\": {\r\n        \"text-shadow\": {\r\n          \"properties\":
+    [\r\n            \"--zb-text-shadow-color\"\r\n          ]\r\n        }\r\n     
+    }\r\n    },\r\n    \"transform\": {\r\n      \"data\": {\r\n        \"transform\":
+    {\r\n          \"value\": \"0\",\r\n          \"uss\": {\r\n            \"--zb-scale-x\":
+    \"1\",\r\n            \"--zb-scale-y\": \"1\",\r\n            \"translate\":
+    \"var(--zb-translate-x) var(--zb-translate-y)\",\r\n            \"rotate\": \"var(--zb-rotate)\",\r\n           
+    \"scale\": \"var(--zb-scale-x) var(--zb-scale-y)\"\r\n          }\r\n       
+    }\r\n      },\r\n      \"enabled\": true,\r\n      \"modifierVariations\": [\r\n       
+    \"hover\",\r\n        \"focus\"\r\n      ],\r\n      \"extendFields\": [],\r\n     
+    \"tagPropertyMap\": {\r\n        \"\": {\r\n          \"properties\": [\r\n           
+    \"--zb-translate-x\",\r\n            \"--zb-translate-y\",\r\n            \"--zb-rotate\"\r\n         
+    ]\r\n        }\r\n      }\r\n    },\r\n    \"transformOrigin\": {\r\n      \"data\":
+    {\r\n        \"center\": {\r\n          \"value\": \"center center\",\r\n         
+    \"uss\": {}\r\n        },\r\n        \"top\": {\r\n          \"value\": \"top\",\r\n         
     \"uss\": {}\r\n        },\r\n        \"top-right\": {\r\n          \"value\":
     \"top right\",\r\n          \"uss\": {}\r\n        },\r\n        \"right\": {\r\n         
     \"value\": \"right\",\r\n          \"uss\": {}\r\n        },\r\n        \"bottom-right\":
@@ -989,6 +989,8 @@ MonoBehaviour:
         Value: '{{generated_class}}:hover'
       - ModifierName: focus
         Value: '{{generated_class}}:focus'
+      - ModifierName: hocus
+        Value: '{{generated_class}}:focus,:hover'
       - ModifierName: checked
         Value: '{{generated_class}}:checked'
       - ModifierName: disabled
@@ -1161,136 +1163,129 @@ MonoBehaviour:
         PaletteName: primary
         Swatches:
         - Name: 50
-          Color: {r: 0.8862746, g: 0.9803922, b: 0.9686275, a: 0}
+          Color: {r: 0.8862746, g: 0.9803922, b: 0.9686275, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 100
-          Color: {r: 0.7725491, g: 0.91372555, b: 0.89019614, a: 0}
+          Color: {r: 0.7725491, g: 0.91372555, b: 0.89019614, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 200
-          Color: {r: 0.64705884, g: 0.8431373, b: 0.8078432, a: 0}
+          Color: {r: 0.64705884, g: 0.8431373, b: 0.8078432, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 300
-          Color: {r: 0.5176471, g: 0.77647066, b: 0.72156864, a: 0}
+          Color: {r: 0.5176471, g: 0.77647066, b: 0.72156864, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 400
-          Color: {r: 0.38823533, g: 0.7137255, b: 0.6313726, a: 0}
+          Color: {r: 0.38823533, g: 0.7137255, b: 0.6313726, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: DEFAULT
-          Color: {r: 0.28627452, g: 0.6117647, b: 0.52156866, a: 0}
+          Color: {r: 0.28627452, g: 0.6117647, b: 0.52156866, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 600
-          Color: {r: 0.21568629, g: 0.47450984, b: 0.41960788, a: 0}
+          Color: {r: 0.21568629, g: 0.47450984, b: 0.41960788, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 700
-          Color: {r: 0.14509805, g: 0.34509805, b: 0.3137255, a: 0}
+          Color: {r: 0.14509805, g: 0.34509805, b: 0.3137255, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 800
-          Color: {r: 0.06666667, g: 0.20784315, b: 0.20000002, a: 0}
+          Color: {r: 0.06666667, g: 0.20784315, b: 0.20000002, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 900
-          Color: {r: 0, g: 0.078431375, b: 0.078431375, a: 0}
+          Color: {r: 0, g: 0.078431375, b: 0.078431375, a: 1}
           CustomStringValue: 
           ColorStringType: 0
       - UssProperties: []
         PaletteName: accent
         Swatches:
         - Name: 50
-          Color: {r: 1, g: 0.9450981, b: 0.8705883, a: 0}
+          Color: {r: 1, g: 0.9450981, b: 0.8705883, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 100
-          Color: {r: 0.9921569, g: 0.83921576, b: 0.7058824, a: 0}
+          Color: {r: 0.9921569, g: 0.83921576, b: 0.7058824, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 200
-          Color: {r: 0.9686275, g: 0.7372549, b: 0.5294118, a: 0}
+          Color: {r: 0.9686275, g: 0.7372549, b: 0.5294118, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 300
-          Color: {r: 0.95294124, g: 0.6313726, b: 0.34901962, a: 0}
+          Color: {r: 0.95294124, g: 0.6313726, b: 0.34901962, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 400
-          Color: {r: 0.93725497, g: 0.5254902, b: 0.16862746, a: 0}
+          Color: {r: 0.93725497, g: 0.5254902, b: 0.16862746, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: DEFAULT
-          Color: {r: 0.8352942, g: 0.42352945, b: 0.06666667, a: 0}
+          Color: {r: 0.8352942, g: 0.42352945, b: 0.06666667, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 600
-          Color: {r: 0.6509804, g: 0.32941177, b: 0.04705883, a: 0}
+          Color: {r: 0.6509804, g: 0.32941177, b: 0.04705883, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 700
-          Color: {r: 0.4666667, g: 0.23529413, b: 0.027450982, a: 0}
+          Color: {r: 0.4666667, g: 0.23529413, b: 0.027450982, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 800
-          Color: {r: 0.28627452, g: 0.13725491, b: 0.003921569, a: 0}
+          Color: {r: 0.28627452, g: 0.13725491, b: 0.003921569, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 900
-          Color: {r: 0.11764707, g: 0.039215688, b: 0, a: 0}
+          Color: {r: 0.11764707, g: 0.039215688, b: 0, a: 1}
           CustomStringValue: 
           ColorStringType: 0
       - UssProperties: []
         PaletteName: neutral
         Swatches:
         - Name: 50
-          Color: {r: 0.9921569, g: 0.94117653, b: 0.91372555, a: 0}
+          Color: {r: 0.9921569, g: 0.94117653, b: 0.91372555, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 100
-          Color: {r: 0.882353, g: 0.8431373, b: 0.81568635, a: 0}
+          Color: {r: 0.882353, g: 0.8431373, b: 0.81568635, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 200
-          Color: {r: 0.7843138, g: 0.74509805, b: 0.7137255, a: 0}
+          Color: {r: 0.7843138, g: 0.74509805, b: 0.7137255, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 300
-          Color: {r: 0.69411767, g: 0.6431373, b: 0.60784316, a: 0}
+          Color: {r: 0.69411767, g: 0.6431373, b: 0.60784316, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 400
-          Color: {r: 0.6039216, g: 0.54509807, b: 0.49803925, a: 0}
+          Color: {r: 0.6039216, g: 0.54509807, b: 0.49803925, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 500
-          Color: {r: 0.5019608, g: 0.4431373, b: 0.39607847, a: 0}
+          Color: {r: 0.5019608, g: 0.4431373, b: 0.39607847, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 600
-          Color: {r: 0.3921569, g: 0.34509805, b: 0.30588236, a: 0}
+          Color: {r: 0.3921569, g: 0.34509805, b: 0.30588236, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 700
-          Color: {r: 0.28627452, g: 0.24705884, b: 0.21568629, a: 0}
+          Color: {r: 0.28627452, g: 0.24705884, b: 0.21568629, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 800
-          Color: {r: 0.1764706, g: 0.14901961, b: 0.11764707, a: 0}
+          Color: {r: 0.1764706, g: 0.14901961, b: 0.11764707, a: 1}
           CustomStringValue: 
           ColorStringType: 0
         - Name: 900
-          Color: {r: 0.07058824, g: 0.050980397, b: 0, a: 0}
-          CustomStringValue: 
-          ColorStringType: 0
-      - UssProperties: []
-        PaletteName: text
-        Swatches:
-        - Name: DEFAULT
-          Color: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0}
+          Color: {r: 0.07058824, g: 0.050980397, b: 0, a: 1}
           CustomStringValue: 
           ColorStringType: 0
       ValuesImageValueDictionary: []
@@ -4574,8 +4569,7 @@ MonoBehaviour:
         ValuesPluginDictionary: []
     - Enabled: 1
       ModifierVariations:
-      - Value: hover
-      - Value: focus
+      - Value: hocus
       ExtendFields:
       - Value: core.colors
       ClassTagToUssPropertyMap:
@@ -4792,7 +4786,10 @@ MonoBehaviour:
         ValuesClassModifierDictionary: []
         ValuesPluginDictionary: []
     - Enabled: 1
-      ModifierVariations: []
+      ModifierVariations:
+      - Value: hover
+      - Value: focus
+      - Value: hocus
       ExtendFields: []
       ClassTagToUssPropertyMap:
       - ClassTag: text-shadow
@@ -4828,6 +4825,18 @@ MonoBehaviour:
         - UssProperties: []
           Key: lg
           Value: 0 8px 16px var(--zb-text-shadow-color)
+        - UssProperties: []
+          Key: solid-sm
+          Value: 1px 1px 0 var(--zb-text-shadow-color)
+        - UssProperties: []
+          Key: solid
+          Value: 2px 2px 0 var(--zb-text-shadow-color)
+        - UssProperties: []
+          Key: solid-md
+          Value: 4px 4px 0 var(--zb-text-shadow-color)
+        - UssProperties: []
+          Key: solid-lg
+          Value: 8px 8px 0 var(--zb-text-shadow-color)
         ValuesColorPalette: []
         ValuesImageValueDictionary: []
         ValuesFontAssetValueDictionary: []
